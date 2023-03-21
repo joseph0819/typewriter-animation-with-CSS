@@ -1,0 +1,34 @@
+
+@import url("https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@200&display=swap");
+body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  width: 100%;
+  background: whitesmoke;
+}
+.typewriter {
+  font-size: 3rem;
+  font-family: "Source Code Pro", monospace;
+  overflow: hidden; /* Hide the text until the animation starts */
+  width: max-content;
+  text-align: center;
+  margin: 100px auto; /* Centers the text */
+  letter-spacing: 0.15em; /* Add spacing between the characters */
+  white-space: nowrap; /* keeps text in one line */
+  text-transform: uppercase; /* transforms text to uppercase*/
+  animation: typing 10s steps(36, end);
+  font-weight: 800;
+}
+
+/* The typing animation */
+@keyframes typing {
+  from {
+    width: 0;
+  }
+  to {
+    width: 100%;
+  }
+}
+
+
